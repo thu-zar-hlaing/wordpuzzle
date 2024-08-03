@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:#56BAED;
+
+}
+.wrapper{
+    width: 430px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.wrapper h1{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 25px;
+    border-bottom: 1px solid #ccc;
+
+}
+.wrapper .content {
+    margin: 25px 25px 35px;
+}
+.content .typing-input{
+    z-index: -999;
+    opacity: 0;
+    position: absolute;
+}
+.content .inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputs input{
+    height: 57px;
+    width: 56px;
+    margin: 4px ;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #b5b5b5;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #1bb295;
+    text-transform: uppercase;
+}
+
+.inputs input:first-child{
+    margin-left: 0px;
+
+}
+.content .details{
+    margin: 20px 0 25px;
+}
+
+.details p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.content .reset-btn{
+    width: 100%;
+    font-size: 17px;
+    padding: 15px 0 ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background: #56BAED;
+    border-radius: 5px;
+}
+
+.time{
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    color: red;
+}
+.dict{
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.btn{
+    width: 100px;
+    margin-top: 2rem;
+   height: 40px;
+   border-radius: 5px;
+   background-color: #56BAED;
+   color:#fff;
+}
+.btn:hover{
+    background-color: #1d739f;
+    color: white;
+}
+
+.dict h1{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 20px 25px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.dict h3{
+    padding: 20px 25px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Puzzle</title>
+    <link rel="stylesheet" href="/wordpuzzle/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="dict">
+        <h1>ဂိမ်းကစားရန်လမ်းညွှန်ချက်များ</h1>
+        <h3>
+            ၁။ ကစားကြိမ် ၅ ကြိမ် ကစားနိုင်ပါသည်။<br>
+            ၂။ တစ်ကြိမ်လျှင် စာလုံးရေ ၈ လုံးသာမှားခွင့်ရှိပါသည်။
+           </h3>
+        <center><button class="btn">Start Game</button></center>
+    </div>
+    <div class="wrapper">
+        <h1 >Guess the World</h1>
+        <h4 class="time">Question Left: <span>5</span></h4>
+        
+        <div class="content">
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs">
+                
+            </div>
+            <div class="details">
+                <p class="hint">Hint: <span>Hint will be shown here</span></p>
+                <p class="guess-less">Remaining Guess: <span></span></p>
+                <p class="wrong-letter">Wrong letters: <span>a, b, c, d</span></p>
+
+
+            </div>
+            <button class="reset-btn">Reset Game</button>
+        </div>
+    </div>
+    <script src="/wordpuzzle/script.js"></script>
+   
+</body>
+</html>
